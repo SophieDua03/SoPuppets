@@ -1,0 +1,969 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #DFD7CB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    height: 1058px;
+
+}
+/* Logo */
+
+.logo {
+    position: absolute;
+    width: 169px;
+    height: 126px;
+    left: 30px;
+    top: 30px;
+}
+
+
+/* Burger Menu */
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 32px;
+}
+
+/* Burger Menu Lines */
+.bar1, .bar2, .bar3 {
+    background: #383236;
+    margin: 6px 0;
+    transition: 0.4s;
+    left: 1360px;
+    top: 32px;
+    width: 39px;
+    height: 5px;
+}
+
+/* Burger Menu Movement into an X */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.nav{
+	display: flex;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	right: o;
+	bottom: 0;
+	background-color:#F9864F;
+    transform: rotate(90.23deg);
+    align-items: right;
+    justify-content: right;
+    transition: transform 0.35s ease-in-out;
+    transform-origin: left top;
+    transform: scaleY(0);
+}
+
+.nav.active {
+	transform: scaleY(1);
+}
+
+.nav-content {
+	display: flex;
+	flex-direction: column;
+    width: 233.79px;
+    height: 197.93px;
+    left: 1395.86px;
+    top: 96.79px;
+    background: #F9864F;
+    transform: rotate(90.23deg);
+}
+
+.nav-content a {
+
+	font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.10em;
+    color: #383236;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 82px; 
+    flex-direction: column;
+}
+
+/* HOME PAGE.THIS IS A CLEAR BREAK IDENTIFYING MAIN PAGE CSS */ 
+
+.main-image{
+    position: absolute;
+    width: 532px;
+    height: 925px;
+    left: 588px;
+    top: 38px;
+}	
+
+.title{
+	position: absolute;
+    width: 515px;
+    height: 318px;
+    left: 127px;
+    top: 605px;
+}
+
+
+h1 {
+	font-family: Strenuous;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px; 
+    line-height: 108px;
+
+    color: #006A78;
+}
+
+p {
+	font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+
+    color: #383236;
+
+}
+
+/* PAGE TUTORIAL.THIS IS A CLEAR BREAK IDENTIFYING PAGE THREE CSS */ 
+
+.line-one{
+    position: absolute;
+    width: 74px;
+    height: 5px;
+    left: 40px;
+    top: 265px;
+}
+
+.subtitle-one{
+    position: absolute;
+    width: 487px;
+    height: 152px;
+    left: 125px;
+    top: 217px;
+
+    font-family: Strenuous;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #006A78;
+}
+/* MATERIALS SECTION */ 
+.text-one{
+    position: absolute;
+    width: 263px;
+    height: 84px;
+    left: 588px;
+    top: 345px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #000000;
+}
+
+
+.list {
+    position: absolute;
+    width: 316px;
+    height: 877px;
+    left: 167px;
+    top: 608px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    line-height: 60px; 
+
+    color: #000000;
+}
+
+.materials{
+    position: absolute;
+    width: 759px;
+    height: 788px;
+    left: 563px;
+    top: 453px;
+}
+
+/* DIRECTIONS SECTION */ 
+
+.text-two{
+    position: absolute;
+width: 308px;
+height: 82px;
+left: 573px;
+top: 1300px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+
+color: #000000;
+
+}
+
+/* step one*/ 
+
+.text-square-one{
+    position: absolute;
+width: 1437px;
+height: 601px;
+left: 3px;
+top: 1424px;
+
+color: #FDAB01;
+}
+
+.step-one{
+    position: absolute;
+width: 319px;
+height: 242px;
+left: 1151px;
+top: 1448px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+}
+
+#d-text-one{
+    position: absolute;
+width: 603px;
+height: 341px;
+left: 776px;
+top: 1551px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+
+.step-one-image{
+    position: absolute;
+width: 668px;
+height: 439px;
+left: 52px;
+top: 1523px;
+}
+
+/* step two*/
+
+
+.text-square-two{
+    position: absolute;
+width: 1437px;
+height: 601px;
+left: 3px;
+top: 2071px;
+
+color: #FDAB01;
+}
+
+.step-two{
+    position: absolute;
+width: 319px;
+height: 242px;
+left: 1135px;
+top: 2105px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+}
+
+#d-text-two{
+    position: absolute;
+width: 627px;
+height: 334px;
+left: 767px;
+top: 2192px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+
+}
+
+
+.step-two-image{
+   position: absolute;
+width: 659px;
+height: 432px;
+left: 52px;
+top: 2176px;
+}
+
+
+/* step three*/
+
+
+.text-square-three{
+    position: absolute;
+width: 1437px;
+height: 601px;
+left: -5px;
+top: 2718px;
+
+color: #FDAB01;
+}
+
+.step-three{
+    position: absolute;
+width: 319px;
+height: 243px;
+left: 1125px;
+top: 2757px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+}
+
+#d-text-three{
+ position: absolute;
+width: 656px;
+height: 170px;
+left: 759px;
+top: 2858px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 31px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.step-three-image{
+    position: absolute;
+width: 654px;
+height: 476px;
+left: 55px;
+top: 2786px;
+}
+
+/* step four*/
+
+.text-square-four{
+    position: absolute;
+width: 1437px;
+height: 601px;
+left: 3px;
+top: 3367px;
+
+color: #FDAB01;
+}
+
+.step-four{
+   position: absolute;
+width: 253px;
+height: 242px;
+left: 1146px;
+top: 3409px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+}
+
+#d-text-four{
+position: absolute;
+width: 645px;
+height: 396px;
+left: 754px;
+top: 3480px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 31px;
+line-height: 36px;
+
+color: #000000;
+
+}
+
+.step-four-image{
+    position: absolute;
+width: 654px;
+height: 476px;
+left: 56px;
+top: 3436px;
+}
+
+/* step five*/
+
+.text-square-five{
+    position: absolute;
+width: 1437px;
+height: 601px;
+left: -8px;
+top: 4016px;
+
+color: #FDAB01;
+}
+
+.step-five{
+ position: absolute;
+width: 278px;
+height: 242px;
+left: 1151px;
+top: 4074px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+}
+
+#d-text-five{
+    position: absolute;
+width: 639px;
+height: 388px;
+left: 756px;
+top: 4164px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 31px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.step-five-image{
+   position: absolute;
+width: 654px;
+height: 476px;
+left: 52px;
+top: 4076px;
+}
+
+
+/* step six*/
+
+.text-square-six{
+    position: absolute;
+width: 1437px;
+height: 601px;
+left: -14px;
+top: 4665px;
+
+color: #FDAB01;
+}
+
+.step-six{
+position: absolute;
+width: 223px;
+height: 242px;
+left: 1162px;
+top: 4723px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+}
+
+#d-text-six{
+    position: absolute;
+width: 643px;
+height: 405px;
+left: 742px;
+top: 4805px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 31px;
+line-height: 36px;
+
+color: #000000;
+}
+
+.step-six-imageA{
+  position: absolute;
+width: 306px;
+height: 447px;
+left: 42px;
+top: 4748px; 
+}
+
+.step-six-imageB{
+ position: absolute;
+width: 348px;
+height: 447px;
+left: 348px;
+top: 4748px;
+}
+
+/* step seven*/
+
+.text-square-seven{
+    position: absolute;
+width: 1437px;
+height: 601px;
+left: -4px;
+top: 5314px;
+
+
+color: #FDAB01;
+}
+
+.step-seven{
+    position: absolute;
+width: 302px;
+height: 242px;
+left: 1089px;
+top: 5356px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+
+
+}
+
+#d-text-seven{
+position: absolute;
+width: 643px;
+height: 424px;
+left: 748px;
+top: 5447px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 31px;
+line-height: 36px;
+
+color: #000000;
+
+}
+
+.step-seven-image{
+position: absolute;
+width: 654px;
+height: 476px;
+left: 53px;
+top: 5379px;
+}
+
+
+/* PAGE FEATURES.THIS IS A CLEAR BREAK IDENTIFYING PAGE FOUR CSS */ 
+
+
+.line-two{
+      position: absolute;
+    width: 74px;
+    height: 5px;
+    left: 40px;
+    top: 265px;
+}
+
+.subtitle-a {
+      position: absolute;
+    width: 487px;
+    height: 152px;
+    left: 125px;
+    top: 217px;
+
+    font-family: Strenuous;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #006A78;
+}
+
+.text-a{
+position: absolute;
+width: 854px;
+height: 82px;
+left: 742px;
+top: 365px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+
+}
+
+.replacement-video{
+    position: absolute;
+width: 1220px;
+height: 592px;
+left: 445px;
+top: 856px;
+
+}
+
+.peachsquare-one{
+position: absolute;
+width: 1208px;
+height: 276px;
+left: 112px;
+top: 1326px;
+
+background: #FFA479;
+}
+
+#d-text-a{
+position: absolute;
+width: 1121px;
+height: 239px;
+left: 152px;
+top: 1372px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 33px;
+line-height: 39px;
+text-align: center;
+
+color: #000000;
+}
+
+.text-b{
+position: absolute;
+width: 407px;
+height: 82px;
+left: 906px;
+top: 1664px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #000000;
+}
+
+.rigs-video{
+position: absolute;
+width: 1220px;
+height: 592px;
+left: 445px;
+top: 2103px;
+
+}
+
+/* insert video position here */ 
+
+.peachsquare-two{
+position: absolute;
+width: 1208px;
+height: 276px;
+left: 119px;
+top: 2683px;
+
+background: #FFA479;
+}
+
+#d-text-b{
+position: absolute;
+width: 1145px;
+height: 249px;
+left: 152px;
+top: 2741px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+}
+
+
+/* PAGE PUPPETS.THIS IS A CLEAR BREAK IDENTIFYING PAGE TWO CSS */ 
+
+.line-p{
+    position: absolute;
+    width: 74px;
+    height: 5px;
+    left: 40px;
+    top: 265px;
+}
+
+.subtitle-p{
+    position: absolute;
+    width: 487px;
+    height: 152px;
+    left: 125px;
+    top: 217px;
+
+    font-family: Strenuous;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #006A78;
+}
+
+
+/* character one */ 
+
+.green-box{
+    position: absolute;
+width: 1360px;
+height: 823px;
+left: 40px;
+top: 325px;
+
+background: #A7BA6C;
+}
+
+.name-1{
+    position: absolute;
+width: 263px;
+height: 82px;
+left: 1142px;
+top: 457px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #383236;
+}
+
+.discription-box{
+    position: absolute;
+width: 427px;
+height: 588px;
+left: 941px;
+top: 529px;
+
+background: #FDE4BB;
+}
+
+#terrance-dis{
+    position: absolute;
+width: 305px;
+height: 532px;
+left: 1014px;
+top: 600px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.terrance{
+    position: absolute;
+width: 851px;
+height: 680px;
+left: 122px;
+top: 369px;
+}
+
+
+/* character two */ 
+
+
+.green-box-2{
+position: absolute;
+width: 1360px;
+height: 823px;
+left: 40px;
+top: 1239px;
+
+background: #A7BA6C;
+}
+
+.name-2{
+position: absolute;
+width: 263px;
+height: 82px;
+left: 1164px;
+top: 1368px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #383236;
+
+}
+
+.discription-box-2{
+position: absolute;
+width: 420px;
+height: 588px;
+left: 937px;
+top: 1444px;
+
+background: #FDE4BB;
+}
+
+#mulatto-dis{
+position: absolute;
+width: 308px;
+height: 532px;
+left: 1005px;
+top: 1534px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.mulatto{
+ position: absolute;
+width: 851px;
+height: 682px;
+left: 123px;
+top: 1298px;
+}
+
+/* character three */ 
+
+.green-box-3{
+ position: absolute;
+width: 1360px;
+height: 823px;
+left: 40px;
+top: 2149px;
+
+background: #A7BA6C;
+}
+
+.name-3{
+position: absolute;
+width: 193px;
+height: 82px;
+left: 1164px;
+top: 2265px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 54px;
+line-height: 63px;
+
+color: #383236;
+
+}
+
+.discription-box-3{
+ position: absolute;
+width: 434px;
+height: 591px;
+left: 911px;
+top: 2347px;
+
+background: #FDE4BB;
+}
+
+#jezebel-dis{
+position: absolute;
+width: 311px;
+height: 532px;
+left: 998px;
+top: 2408px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.jezebel{
+position: absolute;
+width: 851px;
+height: 682px;
+left: 110px;
+top: 2220px;   
+}
+
+
